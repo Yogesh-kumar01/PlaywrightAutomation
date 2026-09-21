@@ -22,7 +22,9 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                bat 'docker run --rm playwright-tests'
+                bat 'if exist allure-results rmdir /s /q allure-results'
+                bat 'mkdir allure-results'
+                bat 'docker run --rm -v "%WORKSPACE%\\allure-results:/app/allure-results" playwright-tests'
             }
         }
     }
