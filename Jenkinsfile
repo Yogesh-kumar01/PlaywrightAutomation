@@ -31,6 +31,10 @@ pipeline {
 
     post {
         always {
+            allure includeProperties: false,
+                   jdk: '',
+                   results: [[path: 'allure-results']]
+
             echo 'Jenkins pipeline execution completed.'
         }
     }
