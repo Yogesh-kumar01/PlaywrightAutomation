@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "inventoryUrl": "https://www.saucedemo.com/inventory.html",
+    "homeTitle": "Products",
+    "cartUrl": "https://www.saucedemo.com/cart.html",
+    "cartTitle": "Your Cart"
+  },
+  "formData": {
+    "firstName": "Yogesh",
+    "lastName": "Kumar",
+    "postalCode": "12345"
+  },
+  "pdfReport": {
+    "path": "Order_Confirmation_Receipt.pdf",
+    "format": "A4",
+    "printBackground": true
+  },
+  "expectedSuccessMsg": "Thank you for your order!"
+}

@@ -1,0 +1,15 @@
+{
+  "registerData": {
+    "username": "yogeshkumar",
+    "fullname": "Yogesh Kumar",
+    "email": "yogeshkumar@gmail.com",
+    "password": "yogesh123"
+  },
+  "loginCredentials": {
+    "email": "yogeshkumar@gmail.com",
+    "password": "yogesh123"
+  },
+  "updateProfileData": {
+    "fullname": "Yogesh Kumar Updated"
+  }
+}
